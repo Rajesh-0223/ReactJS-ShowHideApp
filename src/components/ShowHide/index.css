@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.show-hide-app-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  font-family: 'Roboto';
+}
+.heading {
+  color: #ffffff;
+  font-size: 35px;
+}
+.show-hide-app-item-con {
+  margin-bottom: 50px;
+}
+.button {
+  height: 40px;
+  width: 160px;
+  border-width: 0px;
+  border-radius: 15px;
+  color: #dd1264;
+  margin: 20px;
+}
+.show-hide-app-output-con {
+  background-color: #fddddb;
+  height: 100px;
+  width: 250px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.name {
+  font-size: 20px;
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+  .show-hide-app-items-con {
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+  }
+  .show-hide-app-item-con {
+    height: 300px;
+    width: 550px;
+  }
+}
